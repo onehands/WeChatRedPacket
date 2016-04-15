@@ -144,7 +144,7 @@ public class QiangHongBaoService extends AccessibilityService {
                 flag = true;
                 return;
             }
-            List<AccessibilityNodeInfo> listHBB = nodeInfo.findAccessibilityNodeInfosByViewId("com.tencent.mm:id/b43");
+            List<AccessibilityNodeInfo> listHBB = nodeInfo.findAccessibilityNodeInfosByViewId("com.tencent.mm:id/b3h");
             if (!listHBB.isEmpty()) {
                 AccessibilityNodeInfo n2 = listHBB.get(0);
                 n2.performAction(AccessibilityNodeInfo.ACTION_CLICK);
@@ -168,7 +168,11 @@ public class QiangHongBaoService extends AccessibilityService {
                 }
             }
 
-            List<AccessibilityNodeInfo> list4 = nodeInfo.findAccessibilityNodeInfosByViewId("com.tencent.mm:id/b_");
+            List<AccessibilityNodeInfo> list4 = nodeInfo.findAccessibilityNodeInfosByViewId("com.tencent.mm:id/ci");
+
+            if (list4 == null || list4.isEmpty()) {
+                list4 = nodeInfo.findAccessibilityNodeInfosByViewId("com.tencent.mm:id/b_");
+            }
 
             Comparator<AccessibilityNodeInfo> comparator = new Comparator<AccessibilityNodeInfo>() {
 

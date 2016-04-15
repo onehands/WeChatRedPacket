@@ -1,25 +1,5 @@
-/*
- * 文件名：MNodeBo.java
- * 版权：Copyright 2007-2015 517na Tech. Co. Ltd. All Rights Reserved. 
- * 描述： MNodeBo.java
- * 修改人：hongjian
- * 修改时间：2015年12月23日
- * 修改内容：新增
- */
 package com.tanlei.qianghongbao;
 
-/**
- * TODO 添加类的一句话简单描述.
- * <p>
- * TODO 详细描述
- * <p>
- * TODO 示例代码
- * 
- * <pre>
- * </pre>
- * 
- * @author hongjian
- */
 public class MNodeBo {
     private String mClassName;
     private String mPackageNam;
